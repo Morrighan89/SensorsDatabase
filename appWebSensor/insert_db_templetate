@@ -1,0 +1,1 @@
+INSERT INTO sensorSdata values(strftime('%Y-%m-%d',"2010-01-01"),strftime('%H:%M:%S',"01:00:00") ,    001,    "CUCINA",        91    ,  3.7    );
