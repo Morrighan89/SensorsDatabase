@@ -103,8 +103,8 @@ def index():
 	}
 	return render_template('index_0.3.html', **templateData)
 
-@app.route("/index2.html")
-def index2():
+@app.route("/soggiorno.html")
+def soggiorno():
 	date, time, temp, hum = getLastData()
 	templateData = {
 	  'time'		: time,
